@@ -1,0 +1,18 @@
+{
+  "name": "C++ Container",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/dprint-asdf:2": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vadimcn.vscode-lldb",
+        "ms-vscode.cpptools-extension-pack",
+        "mathematic.vscode-pdf"
+      ]
+    }
+  }
+}
